@@ -23,7 +23,7 @@ import org.apache.ranger.plugin.policyengine.RangerAccessResourceImpl
 
 import org.apache.submarine.spark.security.SparkObjectType.SparkObjectType
 
-class RangerSparkResource(
+class   RangerSparkResource(
     objectType: SparkObjectType,
     databaseOrUrl: Option[String],
     tableOrUdf: String,
